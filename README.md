@@ -250,4 +250,12 @@ Next, some comments on topics that came up when looking at the feedback:
   - This can be very specific to the type of code and language you are working on. Maybe a good topic for the "bring your own code" sessions or as part of a seminar series.    
 - Open-source collaboration
   - We have some pointers for that in our [collaborative git lesson](https://coderefinery.github.io/git-collaborative/forking-workflow/), but will look into making it more specific.
+- More time to solve the exercises
+  - We try to give at least 10-15 min per exercise and try to balance length of the workshop day, lecture and exercise time. All exercises come with solutions, so that they can also be completed after the workshop.
+- Summary of how git works
+  - We could highlight this cheatsheet more during the workshop: https://aaltoscicomp.github.io/cheatsheets/git-the-way-you-need-it-cheatsheet.pdf
+- Packaging
+  - Our partner Aalto scicomp has this page: https://scicomp.aalto.fi/scicomp/packaging-software/ ; more detailed packaging is language specific. In general we try to be programming language agnostic with our materials or provide code examples in multiple languages. We will consider if we can add something.
+- R
+  - We are working on adding more R to CodeRefinery lessons in respective tabs. Please contribute if you can :)
    
