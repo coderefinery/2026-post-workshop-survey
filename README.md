@@ -258,4 +258,7 @@ Next, some comments on topics that came up when looking at the feedback:
   - Our partner Aalto scicomp has this page: https://scicomp.aalto.fi/scicomp/packaging-software/ ; more detailed packaging is language specific. In general we try to be programming language agnostic with our materials or provide code examples in multiple languages. We will consider if we can add something.
 - R
   - We are working on adding more R to CodeRefinery lessons in respective tabs. Please contribute if you can :)
-   
+- ..
+- ..
+
+
