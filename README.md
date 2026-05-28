@@ -228,37 +228,6 @@ Anything else you would like to tell us about the workshop format?
 - I really like the practical part. But I would like to have more time to solve the exercises.
 - I seem to remember I quite enjoyed it.
 
-----
 
-## Comments from the project team 
-
-Thank you so much for all your thoughtful comments and feedback! 
-Many of your comments have made it into issues at the respective lessons and we will be working on them toward the autumn 2026 workshop. 
-Some lessons also have changed quite a bit since 2024/2025, and we therefore encourage everyone to revisit the lesson materials and videos. 
-
-Next, some comments on topics that came up when looking at the feedback:
-
-- Intermediate / advanced tracks
-  - As we try to cater to a broad audience, we have been trying to have exercises for different tools and languages. Many lessons also include optional exercises, which are often more advanced. Though not all lessons/exercises have alternative tracks and we will look into providing more in the future.    
-- AI-assisted coding workflows
-  - In 2026 we introduced a new lesson on [responsible use of AI in assisted coding](https://coderefinery.github.io/coding-with-ai/) that replaced a previous lesson on [Jupyter notebooks](https://coderefinery.github.io/jupyter/). We are curious to get some more long term feedback on the usefulness of this lesson in the future.  
-- Real-world adoption (bridging theory → practice)
-  - We would like to provide this more through the "bring your own code" sessions after the workshop, though they have not had many people joining. 
-- Environments / HPC / containers
-  - Many of our partners offer training on these topics, see also: https://github.com/coderefinery/workshop-outro/#ask-for-local-support-from-partners  
-- Working with legacy code
-  - This can be very specific to the type of code and language you are working on. Maybe a good topic for the "bring your own code" sessions or as part of a seminar series.    
-- Open-source collaboration
-  - We have some pointers for that in our [collaborative git lesson](https://coderefinery.github.io/git-collaborative/forking-workflow/), but will look into making it more specific.
-- More time to solve the exercises
-  - We try to give at least 10-15 min per exercise and try to balance length of the workshop day, lecture and exercise time. All exercises come with solutions, so that they can also be completed after the workshop.
-- Summary of how git works
-  - We could highlight this cheatsheet more during the workshop: https://aaltoscicomp.github.io/cheatsheets/git-the-way-you-need-it-cheatsheet.pdf
-- Packaging
-  - Our partner Aalto scicomp has this page: https://scicomp.aalto.fi/scicomp/packaging-software/ ; more detailed packaging is language specific. In general we try to be programming language agnostic with our materials or provide code examples in multiple languages. We will consider if we can add something.
-- R
-  - We are working on adding more R to CodeRefinery lessons in respective tabs. Please contribute if you can :)
-- ..
-- ..
 
 
