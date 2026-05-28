@@ -1,27 +1,27 @@
+# Results from our 2026 post workshop survey
 
-# 2026-post-workshop-survey
+In early 2026 we sent out a survey to participants of our workshops from 2024 and 2025. 
+We received 72 responses and this blog post summarizes the findings.
+The survey was open from 2026-04-01 to 2026-04-30.
 
-This repo includes the results of the post workshop survey sent out to workshop participants from 2024 and 2025.
+You can also browse the [survey questions](CodeRefinery_post_workshop_survey_questions.pdf) and the [GitHub repository](https://github.com/coderefinery/2026-post-workshop-survey), 
+including the Jupyter notebook which generated the plots. We have archived the results on [Zenodo]().
 
-- Number of delivered submissions: 72
-- Survey was open from 2026-04-01 to 2026-04-30
-- [Questions](CodeRefinery_post_workshop_survey_questions.pdf)
-- Blog post TBD
+For each plot we also provide a summary in text form right below each plot. 
+Further below you can find answers to free-form questions as well as suggestions for improvement which we received from the survey participants.
 
-## Results
+One thing we did not do with the answers was to try to cross-correlate questions 
+(for instance to correlate feedback with career stage or academic discipline).
+
+We are very grateful for the all your thoughtful comments, feedback and suggestions! 
+
+Many of the comments have made it into issues at the respective lessons and we will be working on them toward the autumn 2026 workshop. 
+Some lessons also have changed quite a bit since 2024/2025, and we therefore encourage everyone to revisit the lesson materials and videos. 
+
+## Survey results
 
 ### Plots 
 ![Plot estimating time saving](notebook/time-saved.png)
-![Plot about whether code is more reusable](notebook/reusable.png)
-![Plot about whether collaboration is easier](notebook/collaboration.png)
-![Plot about whether colleagues have been introduced](notebook/colleagues.png)
-![How likely are you to recommend?](notebook/recommending.png)
-![What would be your preferred delivery style for this workshop?](notebook/pre-recorded-or-live-or-in-person.png)
-![Participation style](notebook/participation-style.png)
-![Career stage](notebook/career-stage.png)
-![Academic discipline](notebook/academic-discipline.png)
-
-### Alt texts
 
 In your estimate, how much time per month have you saved as a result of attending a CodeRefinery workshop
 - No time saved: 11
@@ -29,28 +29,28 @@ In your estimate, how much time per month have you saved as a result of attendin
 - Hours: 37
 - Days: 13
 
----
+![Plot about whether code is more reusable](notebook/reusable.png)
 
 After attending the workshop, would you judge your code to be more reusable or not more reusable?
 - My code is more reusable: 55
 - My code is not more reusable: 3
 - Not sure: 14
 
----
+![Plot about whether collaboration is easier](notebook/collaboration.png)
 
 After attending the workshop, has it become easier or not for you to collaborate on software development with your colleagues and collaborators?
 - Collaboration is easier: 49
 - Collaboration is not easier: 3
 - Not sure: 20
 
----
+![Plot about whether colleagues have been introduced](notebook/colleagues.png)
 
 Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?
 - I have introduced one or more of my colleagues to new tools or practices: 48
 - I have not introduced one or more of my colleagues to new tools or practices: 19
 - Not sure: 5
 
----
+![How likely are you to recommend?](notebook/recommending.png)
 
 How likely is it that you would recommend CodeRefinery workshop to a friend or colleague?
 - 10: 37
@@ -60,7 +60,8 @@ How likely is it that you would recommend CodeRefinery workshop to a friend or c
 - 6: 2
 - 4: 1
 
----
+![What would be your preferred delivery style for this workshop?](notebook/pre-recorded-or-live-or-in-person.png)
+
 
 What would be your preferred delivery style for this workshop?
 - MOOC (Asynchronous learning on learning platform): 8
@@ -71,14 +72,14 @@ What would be your preferred delivery style for this workshop?
 - In-person teaching with demos: 2
 - Local classroom for streamed workshop with exercises: 3
 
----
+![Participation style](notebook/participation-style.png)
 
 Participation style
 - Individual learner: 58
 - Learner in a team (with your colleagues/friends): 7
 - Learner in a local classroom: 6
 
----
+![Career stage](notebook/career-stage.png)
 
 Career stage
 - Undergraduate student: 1
@@ -86,7 +87,7 @@ Career stage
 - Researcher: 10
 - Professor: 2
 
----
+![Academic discipline](notebook/academic-discipline.png)
 
 Academic discipline
 - Physical Sciences: 14
@@ -114,7 +115,7 @@ Academic discipline
 
 ### Open text questions
 
-- Has anything else changed in how you write code for your research after attending the workshop?
+Has anything else changed in how you write code for your research after attending the workshop?
 
 
 - yes, I revisited my git skills, learned testing functions and Pytest, also learned CI/CD and automated documentation using Sphinx all thanks to Coderefinery!
@@ -228,6 +229,38 @@ Anything else you would like to tell us about the workshop format?
 - I really like the practical part. But I would like to have more time to solve the exercises.
 - I seem to remember I quite enjoyed it.
 
+## Comments from the project team
 
+Next, a few additional comments/explanations from the project team on some of the recurring wishes from the feedback survey:
 
-
+- Intermediate / advanced tracks
+  - As we try to cater to a broad audience, we have been trying to have exercises for different tools and languages. 
+  Many lessons also include optional exercises, which are often more advanced. 
+  Though not all lessons/exercises have alternative tracks and we will look into providing more in the future.    
+- AI-assisted coding workflows
+  - In 2026 we introduced a new lesson on [responsible use of AI in assisted coding](https://coderefinery.github.io/coding-with-ai/)
+   that replaced a previous lesson on [Jupyter notebooks](https://coderefinery.github.io/jupyter/). 
+   We are curious to get some more long term feedback on the usefulness of this lesson in the future.  
+- Real-world adoption (bridging theory → practice)
+  - We would like to provide this more through the "bring your own code" sessions after the workshop, 
+  though they have not had many people joining. 
+- Environments / HPC / containers
+  - Many of our partners offer training on these topics, see also: https://github.com/coderefinery/workshop-outro/#ask-for-local-support-from-partners  
+- Working with legacy code
+  - This can be very specific to the type of code and language you are working on. 
+  Maybe a good topic for the "bring your own code" sessions or as part of a seminar series.    
+- Open-source collaboration
+  - We have some pointers for that in our [collaborative git lesson](https://coderefinery.github.io/git-collaborative/forking-workflow/), 
+  but will look into making it more specific.
+- More time to solve the exercises
+  - We try to give at least 10-15 min per exercise and try to balance length of the workshop day, lecture and exercise time. 
+  All exercises come with solutions, so that they can also be completed after the workshop.
+- Summary of how git works
+  - We could highlight this cheatsheet more during the workshop: https://aaltoscicomp.github.io/cheatsheets/git-the-way-you-need-it-cheatsheet.pdf
+- Packaging
+  - Our partner Aalto scicomp has this page: https://scicomp.aalto.fi/scicomp/packaging-software/ ; 
+  more detailed packaging is often language specific. In general we try to be programming language agnostic with our materials
+  or provide code examples in multiple languages. We will consider if we can add something.
+- R
+  - We are working on adding more R to CodeRefinery lessons in respective tabs. Please contribute if you can :)
+ 
